@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Jigsaw Puzzle Maker</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🧩 Jigsaw Puzzle Maker</h1>
+    <p class="subtitle">Upload an image, pick a difficulty and solve the puzzle.</p>
+  </header>
+
+  <main>
+    <div class="controls">
+      <label class="file">
+        <span>Choose image</span>
+        <input id="imageUpload" type="file" accept="image/*">
+      </label>
+
+      <label>
+        Difficulty:
+        <select id="difficulty">
+          <option value="5">Easy (5 pieces)</option>
+          <option value="20">Medium (20 pieces)</option>
+          <option value="40">Hard (40 pieces)</option>
+          <option value="80">Very Hard (80 pieces)</option>
+          <option value="100">Extreme (100 pieces)</option>
+        </select>
+      </label>
+
+      <button id="startBtn">Start Puzzle</button>
+      <button id="shuffleBtn" disabled>Shuffle</button>
+      <button id="resetBtn" disabled>Reset</button>
+      <button id="undoBtn" disabled>Undo Last Move</button>
+    </div>
+
+    <div class="statusbar">
+      <div>Time: <span id="timer">00:00</span></div>
+      <div>Moves: <span id="moves">0</span></div>
+      <div id="message" class="message"></div>
+    </div>
+
+    <section class="puzzle-area" id="puzzleArea" aria-live="polite">
+      <div id="slotsContainer" class="slots"></div>
+      <div id="poolContainer" class="pool" aria-label="pieces pool"></div>
+    </section>
+
+    <p class="hint">On mobile: tap a piece to select it, then tap a slot to place it. On desktop: drag & drop works.</p>
+  </main>
+
+  <footer>
+    <small>Built for CS6.302 Q3 — Jigsaw Puzzle Maker</small>
+  </footer>
+
+  <script src="script.js"></script>
+  <!-- Q6: Event Tracking Integration -->
+  <script src="../Q6/eventTracker.js"></script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 # 🧩 Jigsaw Puzzle Maker (Q3)
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge&logo=github)](https://digantasen.github.io/SSD-Course-Structure/jigsaw.html)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge&logo=github)](https://digantasen.github.io/Jigsaw-Puzzle/)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -15,7 +15,7 @@
 
 An interactive **Jigsaw Puzzle Maker** that transforms any image into a customizable puzzle game. Upload your favorite image, select difficulty, and solve the puzzle with intuitive drag-and-drop mechanics. Features include smart piece swapping, undo functionality, real-time tracking, and visual feedback for correct placements.
 
-**🎮 [Play Live Demo →](https://digantasen.github.io/SSD-Course-Structure/jigsaw.html)**
+**🎮 [Play Live Demo →](https://digantasen.github.io/Jigsaw-Puzzle/)**
 
 ---
 
@@ -62,7 +62,8 @@ An interactive **Jigsaw Puzzle Maker** that transforms any image into a customiz
 
 ```
 Q3/
-├── jigsaw.html         # Main HTML file with puzzle interface
+├── index.html          # Main entry point (GitHub Pages)
+├── jigsaw.html         # Alternative HTML file (same content)
 ├── style.css           # Complete styling and responsive design
 ├── script.js           # Core puzzle logic and game mechanics
 └── README.md           # Comprehensive documentation (this file)
@@ -70,7 +71,7 @@ Q3/
 
 ### File Details
 
-**`jigsaw.html`** (Main Application)
+**`index.html`** / **`jigsaw.html`** (Main Application)
 - Image upload interface
 - Difficulty selection controls
 - Puzzle board and piece pool
@@ -98,21 +99,21 @@ Q3/
 ## 🚀 How to Run
 
 ### Option 1: Live Demo (Recommended)
-Visit the hosted version: **[Play Now →](https://digantasen.github.io/SSD-Course-Structure/jigsaw.html)**
+Visit the hosted version: **[Play Now →](https://digantasen.github.io/Jigsaw-Puzzle/)**
 
 ### Option 2: Local Development
 1. **Clone/Download** the project folder:
    ```bash
-   git clone https://github.com/DigantaSen/SSD-Course-Structure.git
-   cd SSD-Course-Structure
+   git clone https://github.com/DigantaSen/Jigsaw-Puzzle.git
+   cd Jigsaw-Puzzle
    ```
 
 2. **Open in Browser:**
-   - Simply double-click `jigsaw.html`
+   - Simply double-click `index.html` or `jigsaw.html`
    - Or use a local server:
      ```bash
      python3 -m http.server 8080
-     # Open http://localhost:8080/jigsaw.html
+     # Open http://localhost:8080
      ```
 
 3. **Start Playing:**
@@ -321,10 +322,10 @@ This project is created for academic purposes as part of coursework at IIIT Hyde
 
 ## 🔗 Links
 
-- **Live Demo:** https://digantasen.github.io/SSD-Course-Structure/jigsaw.html
-- **GitHub Repository:** https://github.com/DigantaSen/SSD-Course-Structure
+- **Live Demo:** https://digantasen.github.io/Jigsaw-Puzzle/
+- **GitHub Repository:** https://github.com/DigantaSen/Jigsaw-Puzzle
 - **Course Website:** CS6.302 - Software System Development
 
 ---
 
-**🎯 Ready to solve puzzles? [Start Playing Now! →](https://digantasen.github.io/SSD-Course-Structure/jigsaw.html)**
+**🎯 Ready to solve puzzles? [Start Playing Now! →](https://digantasen.github.io/Jigsaw-Puzzle/)**
