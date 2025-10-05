@@ -62,8 +62,7 @@ An interactive **Jigsaw Puzzle Maker** that transforms any image into a customiz
 
 ```
 Q3/
-├── index.html          # Main entry point (GitHub Pages)
-├── jigsaw.html         # Alternative HTML file (same content)
+├── index.html          # Main HTML file with puzzle interface
 ├── style.css           # Complete styling and responsive design
 ├── script.js           # Core puzzle logic and game mechanics
 └── README.md           # Comprehensive documentation (this file)
@@ -71,7 +70,7 @@ Q3/
 
 ### File Details
 
-**`index.html`** / **`jigsaw.html`** (Main Application)
+**`index.html`** (Main Application)
 - Image upload interface
 - Difficulty selection controls
 - Puzzle board and piece pool
@@ -109,7 +108,7 @@ Visit the hosted version: **[Play Now →](https://digantasen.github.io/Jigsaw-P
    ```
 
 2. **Open in Browser:**
-   - Simply double-click `index.html` or `jigsaw.html`
+   - Simply double-click `index.html`
    - Or use a local server:
      ```bash
      python3 -m http.server 8080
